@@ -1,7 +1,7 @@
-# Blank-Rick-Roll
+# Blank-Code
 
-Rick Roll website that has hidden code.
+Website that has hidden code.
 
-🔗 [therickroll.com](https://therickroll.com)
+🔗 [vitaforas.de](https://vitaforas.de)
 
-✨ [Watch Video](https://www.youtube.com/watch?v=msdymgkhePo)
+✨ [Buy Lighter Fuel](https://fuel.vitaforas.de/#home)
