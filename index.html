@@ -1,10 +1,34 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Künstliche Intelligenz</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versteckte Video-Links</title>
 </head>
 <body>
+    <div id="videoPlayer"></div>
+
+    <script>
+        // Hier kommt der verschleierte Video-Link
+        const encryptedVideoLink = "ABCDEFG12345";
+
+        // Funktion zum Entschlüsseln und Laden des Videos
+        function playEncryptedVideo(link) {
+            // Hier könnte Ihre Entschlüsselungsfunktion stehen
+            const decryptedLink = "https://www.example.com/videos/" + link;
+
+            // Hier laden Sie das Video in einem Video-Tag
+            const videoPlayer = document.getElementById("videoPlayer");
+            videoPlayer.innerHTML = `<video controls><source src="${decryptedLink}" type="video/mp4"></video>`;
+        }
+
+        // Video für Benutzer entschlüsseln und wiedergeben
+        playEncryptedVideo(encryptedVideoLink);
+    </script>
+
+************
+
     <h1>Willkommen zur künstlichen Intelligenz</h1>
     <p>Stelle mir eine Frage:</p>
     <input type="text" id="questionInput">
@@ -24,5 +48,24 @@
             return "Keine Ahnung, ich frag mal bing. Bitte warte noch 40067min. !";
         }
     </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
