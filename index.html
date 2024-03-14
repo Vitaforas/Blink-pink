@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Künstliche Intelligenz</title>
+</head>
+<body>
+    <h1>Willkommen zur künstlichen Intelligenz</h1>
+    <p>Stelle mir eine Frage:</p>
+    <input type="text" id="questionInput">
+    <button onclick="askQuestion()">Frage stellen</button>
+    <p id="answer"></p>
+    
+    <script>
+        function askQuestion() {
+            const question = document.getElementById("questionInput").value;
+            const answer = generateAnswer(question);
+            document.getElementById("answer").innerText = answer;
+        }
+        
+        function generateAnswer(question) {
+            // Hier könntest du eine Logik einfügen, um eine Antwort basierend auf der Frage zu generieren
+            // Das kann von einer einfachen if-else-Anweisung bis hin zu einer komplexen AI-Logik reichen
+            return "Das ist eine großartige Frage!";
+        }
+    </script>
+</body>
+</html>
