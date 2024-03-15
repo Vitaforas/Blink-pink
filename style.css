@@ -17,7 +17,7 @@ body::before, body::after {
 
 head { 
   display: block;
-  background-image: url(https://html.vitaforas.de/StreamTv.png);
+  background-image: StreamTv.png url(https://html.vitaforas.de/StreamTV.png);
   height:20rem;
   width:20rem;
   background-repeat: no-repeat;
@@ -30,11 +30,7 @@ head {
 body::before {
   display: inline-block;
   padding-top: 3rem;
-  content: "Need to pee.<img src="StreamTV.png" alt="300" width="85%" height="auto">
-
-<p>
-Kein Login, keine Werbung, just Watch !
-</p> <p>..";
+  content: "Need to pee...";
 }
 
 body::after {
