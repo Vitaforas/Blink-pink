@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymized Links</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const links = document.querySelectorAll("a");
+
+            links.forEach(function(link) {
+                link.href = "#"; // Anonymizing the link by replacing the actual URL with #
+                link.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    alert("Linkziel: " + link.getAttribute("data-original-url"));
+                });
+                link.setAttribute("data-original-url", link.href); // Storing the original URL in a custom attribute
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>This is a paragraph with a <a href="https://example.com">link to example.com</a>.</p>
+    <p>Another paragraph with a <a href="https://google.com">link to Google</a>.</p>
+</body>
+</html>
+```
+
+In diesem Code werden alle Links auf der Seite anonymisiert. 
+Wenn ein Benutzer auf einen anonymisierten Link klickt, wird eine Alert-Box angezeigt, die das ursprüngliche Ziel des Links anzeigt. 
+Die ursprünglichen URLs werden in einem benutzerdefinierten Attribut `data-original-url` gespeichert.
