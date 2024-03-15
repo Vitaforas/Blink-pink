@@ -17,7 +17,7 @@ body::before, body::after {
 
 head { 
   display: block;
-  background-image: StreamTv.png url(https://html.vitaforas.de/StreamTV.png);
+  background-image:  url(https://);
   height:20rem;
   width:20rem;
   background-repeat: no-repeat;
