@@ -27,6 +27,24 @@ head {
   border-style: dashed;
 }
 
+
+.hidden-link {
+    display: none; /* Verstecke den Link */
+}
+
+p {
+    position: relative; /* Setze den Positionstyp auf relative für das übergeordnete `p` Element */
+}
+
+p:hover .hidden-link {
+    display: block; /* Zeige den Link an, wenn das übergeordnete `p` Element gehovered wird */
+}
+
+img {
+    width: 100%; /* Setze die Breite auf 100% */
+    height: auto; /* Lass die Höhe automatisch anpassen */
+}
+
 body::before {
   display: inline-block;
   padding-top: 3rem;
