@@ -50,3 +50,7 @@ body::after {
     opacity: 0;
   }
 }
+
+.hidden-link {
+    display: none;
+}
