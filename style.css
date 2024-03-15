@@ -30,7 +30,7 @@ head {
 body::before {
   display: inline-block;
   padding-top: 3rem;
-  content: "Never gonna give you up...";
+  content: "Need to pee...";
 }
 
 body::after {
