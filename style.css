@@ -48,7 +48,7 @@ img {
 body::before {
   display: inline-block;
   padding-top: 3rem;
-  content: "Need to pee...";
+  content: "Just Click...";
 }
 
 body::after {
